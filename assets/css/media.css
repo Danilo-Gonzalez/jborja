@@ -1,0 +1,47 @@
+
+/*--Extra-Small Device---*/
+@media (max-width:767px){
+.camera_caption{
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  }
+  .camera_caption h4{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    }
+}
+
+/* --Small Device-- */
+@media (min-width:768px) and (max-width: 991px){
+  .camera_caption{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  }
+  .camera_caption h4{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* Medium Device */
+@media (min-width:992px) and (max-width:1199px){
+  .camera_caption{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  }
+  .camera_caption h4{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/*---Large Device---*/
+@media (min-width:1200px){
+
+}
+
+

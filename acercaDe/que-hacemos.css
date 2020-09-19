@@ -1,0 +1,486 @@
+ /*header en entras de Noticias*/
+ #header-baugran {
+    background: url(../acercaDe/portada.jpg);
+    /* background: url(../noticias/imgNoticias/16-10-18/1.10noticia.jpg) fixed no-repeat; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative; 
+ 
+
+  }
+  .que-hacemos{
+      width: 100%;
+      min-height: 100px;
+    height: 300px; 
+  }
+  .degradadoColor-h{    
+     /* background: -webkit-linear-gradient(rgba(34, 36, 35, 0.548) 60%, rgba(57, 58, 58, 0.897) 100%);
+      background: -moz-linear-gradient(rgba(34, 36, 35, 0.548) 60%,   rgba(57, 58, 58, 0.897) 100%);
+      background: -o-linear-gradient(rgba(34, 36, 35, 0.548) 60%,   rgba(57, 58, 58, 0.897) 100%); */
+       background: -webkit-linear-gradient(  rgba(207, 211, 208, 0.678) 10%,  rgba(16, 92, 39, 0.555) 90%);
+      background: -moz-linear-gradient(   rgba(207, 211, 208, 0.678) 10%,  rgba(16, 92, 39, 0.555) 90%);
+      background: -o-linear-gradient(  rgba(207, 211, 208, 0.678) 10%,  rgba(16, 92, 39, 0.555) 90%);
+  }
+  .que-hacemos h2{
+      text-align: center;
+      font-size: 3.3em;
+      font-family: 'Fondamento', cursive;
+    
+      
+  }
+  .que-hacemos .container .main_title h2{
+    padding-top: 9%;
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Fondamento', cursive;
+  }
+  .que-hacemos p{
+      text-align: center;
+  }
+  .quienesSomos p a{
+      color: #fff;
+      font-size: 50px
+  }
+ 
+  .lista{
+    margin-left: 2em;
+    margin-top: 1.3em;
+    margin-right: 1.5em;
+    list-style-type: upper-roman;
+  }
+ 
+
+  
+  
+  .ol{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  
+
+  
+  
+  #que-hacemos{
+    background-color: green;
+    height: auto;
+    /*width: 100%;
+    margin: 0 auto;*/
+    box-shadow: 0px 0px 10px;
+  }
+  #cont-que-hacemos{
+    box-shadow: 0px 0px 10px; 
+    width: 80%;
+   margin: 0 auto; 
+    height: auto;
+  }
+.text-quehacemos{
+    margin: 4%;
+    margin-right: 7%;
+    margin-left: 7%;
+    
+}
+
+#como-lo-hacemos{
+  background-color: green;
+  height: auto;
+  /*width: 100%;
+  margin: 0 auto;*/
+  box-shadow: 0px 0px 10px;
+  margin-top: 5%;
+  
+  
+}
+#div-como-lo-hacemos{
+  box-shadow: 0px 0px 10px;
+  margin-top: 5%;
+  
+}
+#img-como{
+  width: 90%;
+  height: 20em;
+  margin: 5%;
+}
+
+  #objetivos{
+    background-color: green;
+    height: auto;
+    box-shadow: 0px 0px 10px;
+    margin-top: 5%;
+   
+
+  }
+  #cont-objetivos{
+    box-shadow: 0px 0px 10px; 
+    height: auto;
+    margin-top: 5%;
+  }
+#text-mision{
+    margin: 4%;
+}
+
+  #objetivos-Misión{
+      background-color: green;
+      height: auto;
+      box-shadow: 0px 0px 10px;
+      margin-top: 5%;
+     
+
+  }
+
+  #div-objetivos-Misión{
+    box-shadow: 0px 0px 10px;
+    margin-top: 5%;
+  }  
+
+
+  #benefician{
+    background-color: green;
+    height: auto;
+    box-shadow: 0px 0px 10px;
+    margin-top: 5%;
+   
+
+}
+
+
+#div-cont-externo{
+    box-shadow: 0px 0px 10px;
+    margin-top: 5%;
+  }
+
+
+#contenido-list{
+    margin: 4%;
+}
+
+
+
+/******subtemas***********/
+
+#subtema-h4{
+  color: white;
+  margin: 5%;
+  font-size: 2.2em;
+  margin-top: 65%;
+}
+
+#t1{
+  color: white;
+    
+    font-size: 2.2em;
+    margin-top: 14%;
+
+    
+}
+#te2{
+  color: white;
+  font-size: 2.2em;
+  margin-top: 17%;
+}
+
+#tem2{
+  color: white;
+  font-size: 2.2em;
+}
+
+#h3-como-lo-hacemos{
+  text-align: center;
+    color: white;
+    font-size: 2.2em;
+   
+} 
+
+
+#h3-como-lo-hacemos{
+  text-align: center;
+    color: white;      
+   font-size: 2.2em;
+   margin: 5%;
+   margin-top: 35%;
+  
+}
+
+#h4-Quiénes{
+  text-align: center;
+    color: white;      
+   font-size: 2.2em;
+   margin: 5%;
+   margin-top: 17%;
+}
+
+/*///////////fin/////////////////////////*/
+
+
+
+  @media (max-width: 767px){
+
+
+
+    #objetivos{
+      background-color: green;
+      height: auto;
+      box-shadow: 0px 0px 10px;
+      margin-top: 14%;
+      
+    }
+    #cont-objetivos{
+      box-shadow: 0px 0px 10px; 
+      height: auto;
+      margin-top: -0.1%;
+      width: 99.5%;
+      margin: 0 auto;
+    }
+/************objetivo-mision**************************************/
+
+    #objetivos-Misión{
+        background-color: green;
+        height:  auto;
+        box-shadow: 0px 0px 10px;
+        margin-top: 14%;
+       
+    }
+    #div-objetivos-Misión{
+      box-shadow: 0px 0px 10px;
+      width: 99.5%;
+      height: auto;
+      margin: 0 auto;
+      
+    }
+    /*///////////////////////fin////////////////////////////////////*/
+
+
+    /*****externo******/
+    #benefician{
+      background-color: green;
+      height:  auto;
+      box-shadow: 0px 0px 10px;
+      margin-top: 10%;
+     
+  
+  }
+
+  #div-cont-externo{
+    box-shadow: 0px 0px 10px;
+    width: 99.5%;
+    margin: 0 auto;
+    margin-top: -0.1%;
+   
+  }
+
+
+ /******subtemas***********/
+ .quienesSomos h2{
+  text-align: center;
+  font-size: 3em !important;
+  font-family: 'Fondamento', cursive;
+ margin-top: 31% !important;
+  
+}
+
+
+  #subtema-h4{
+    color: white;
+    margin: 12%;
+    font-size: 2em;
+  }
+
+
+#t1{
+  color: white;
+    font-size: 2em;
+    margin-top: 5.5%;
+    
+    
+}
+#tem2{
+  color: white;
+  font-size: 2em;
+  margin-bottom: 5.5%;
+}
+
+#te2{
+  color: white;
+  font-size: 2em;
+  margin: 5%;
+}
+
+#h3-como-lo-hacemos{
+  text-align: center;
+    color: white;      
+   font-size: 2em;
+   margin: 5%;
+  
+}
+
+#h4-Quiénes{
+  text-align: center;
+    color: white;      
+   font-size: 2em;
+   margin: 5%
+}
+
+  /*///////////fin/////////////////////////*/
+
+  /*********************************************/
+   
+    #que-hacemos{
+      background-color: green;
+      height: auto;
+      box-shadow: 0px 0px 10px;
+     
+    }
+    #cont-que-hacemos{
+      box-shadow: 0px 0px 10px; 
+      height: auto;
+      width: 99.5%;
+      margin-top: -0.1% !important;
+    }
+  .text-quehacemos{
+      margin: 4%;
+      margin-top: 8%;
+
+  }
+   
+
+
+      #cont-mision{
+        box-shadow: 0px 0px 10px; 
+        height: auto;
+        width: 99%;
+        margin-top: -0.1%;
+      }
+    #text-mision{
+        margin: 4%;
+    }
+
+
+/*colo lo hacemos*/ 
+/*******************/
+    #como-lo-hacemos{
+      background-color: green;
+      height: auto;
+      /*width: 100%;
+      margin: 0 auto;*/
+      box-shadow: 0px 0px 10px;
+      margin-top: 14%;
+    }
+    #div-como-lo-hacemos{
+      box-shadow: 0px 0px 10px;
+      margin-top: -0.1%;
+      width: 99.2%;
+      margin: 0 auto;
+     
+    }
+    #img-como{
+      width: 97%;
+      height: 14em;
+     
+      
+    }
+    #h3-como-lo-hacemos{
+      text-align: center;
+        color: white;
+       
+    } 
+/*******************/
+  
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+   
+ /******subtemas***********/
+
+  #subtema-h4{
+    color: white;
+    font-size: 2.5em;
+    margin-top: 105%;
+    
+  }
+
+
+#t1{
+  color: white;
+    text-align: center important ;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 23%;
+    
+    
+}
+
+#te2{
+  color: white;
+  font-size: 2em;
+  margin: 5%;
+  margin-top: 37%;
+
+ 
+}
+#tem2{
+  color: white;
+  font-size: 2em;
+ 
+}
+#h3-como-lo-hacemos{
+  text-align: center;
+    color: white;      
+   font-size: 2em;
+   margin-top: 35%;
+  
+}
+
+#h4-Quiénes{
+  text-align: center;
+    color: white;      
+   font-size: 2em;
+   margin: 5%;
+   margin-top: 33%;
+}
+
+  /*///////////fin/////////////////////////*/
+  
+
+    #objetivos{
+        background-color: green;
+        height: auto;
+        box-shadow: 0px 0px 10px;
+      
+      }
+      #cont-mision{
+        box-shadow: 0px 0px 10px; 
+        height: auto;
+        width: 99.5%;
+      }
+    #text-mision{
+        margin: 4%;
+    }
+  /*colo lo hacemos*/ 
+/*******************/
+    #div-como-lo-hacemos{
+      box-shadow: 0px 0px 10px;
+     
+      width: 99.5%;
+      margin: 0 auto;
+      margin-top: 4%;
+    }
+    #img-como{
+      width: 95%;
+      height: 17em;
+      
+    }
+   
+    #como-lo-hacemos{
+      background-color: green;
+      height: auto;
+      /*width: 100%;
+      margin: 0 auto;*/
+      box-shadow: 0px 0px 10px;
+      margin-top: 4%;
+    }
+/******************************************/
+  }

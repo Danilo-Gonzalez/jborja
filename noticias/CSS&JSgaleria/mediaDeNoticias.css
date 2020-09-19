@@ -1,0 +1,148 @@
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+   @media (max-width: 575px) {
+            /*header en entras de Noticias*/
+        #hero-area {
+            background: url(../../img/bg-3.jpg) fixed no-repeat !important;
+            /* background: url(../img/bg-3.jpg) fixed no-repeat !important; */
+            /* background: url(../noticias/imgNoticias/16-10-18/1.10noticia.jpg) fixed no-repeat; */
+            background-size: cover;
+            color: #fff;
+            overflow: hidden;
+            position: relative;  
+        }
+        
+        .headerNoticias{
+            width: 100%;
+            min-height: 100px;
+            height: 300px; 
+        }
+        .degradadoColor{    
+            /* background: -webkit-linear-gradient(rgba(34, 36, 35, 0.548) 60%, rgba(57, 58, 58, 0.897) 100%);
+            background: -moz-linear-gradient(rgba(34, 36, 35, 0.548) 60%,   rgba(57, 58, 58, 0.897) 100%);
+            background: -o-linear-gradient(rgba(34, 36, 35, 0.548) 60%,   rgba(57, 58, 58, 0.897) 100%); */
+            background: -webkit-linear-gradient(  rgba(16, 92, 39, 0.26) 60%,  rgba(16, 92, 39, 0.527) 90%);
+            background: -moz-linear-gradient(   rgba(16, 92, 39, 0.26) 60%,    rgba(16, 92, 39, 0.527) 90%);
+            background: -o-linear-gradient(  rgba(16, 92, 39, 0.26)  60%,   rgba(16, 92, 39, 0.527) 90%);
+        }
+        .headerNoticias h2{
+            text-align: center;
+            padding-top: 15%;
+            color: rgb(28, 105, 51);
+            font-size: 55px;
+            font-family: 'Fondamento', cursive;
+        }
+        .headerNoticias p{
+            text-align: center;
+            color: rgb(206, 199, 199);
+            font-size: 60px
+        }
+        .headerNoticias p a{
+            color: #fff
+        }
+        .headerNoticias .container .main_title h2{
+            padding-top: 20%;
+            color: rgb(206, 199, 199);
+            font-size: 55px;
+            font-family: 'Fondamento', cursive;
+        }
+        .headerNoticias .container .main_title p{
+            color: rgb(206, 199, 199);
+            font-size: 30px
+        }
+        /* the end de header de Noticias */
+        
+        /* seccion de noticias */
+                
+           .headerNoticias{
+            width: 100%;
+            min-height: 100px;
+            height: 300px; 
+            }
+            .headerNoticias .container .main_title h2{
+            font-size: 30px;
+            margin-top: 2em
+            }
+
+            .headerNoticias .container .main_title span{
+                display: none!important; 
+            }
+            .headerNoticias .container .main_title  p{
+                font-size: 20px;
+            }
+            
+            .btnnone{
+                display: none!important; 
+            }
+            .image img{
+                height: auto !important
+            }
+   }
+   @media (max-width: 575px) {
+                /* noticias */
+                .cajaShow .container h1{
+                    font-size: 25px
+                }
+                .cajaShow .container .h4{
+                    font-size: 17px;
+                
+                }
+                .container-fluid{
+                    margin-top:-3em !important
+                }
+                .box-card{
+                    width: 100%
+                }
+                .box-card card {
+                    width: 100%;
+                    margin-left:0
+                }            
+                center .card {
+                    width: 100% !important
+                }
+                .cajaShow h1{
+                    font-size:30px 
+                }
+                .cajaShow .h4{
+                    font-size:19px 
+                }
+                .rd p {
+                    display: block;
+                    width: 100%
+                }
+                .rd .REDES {
+                    display: block;
+                    width: 100%;
+                    float: left
+                }
+                .float-right{
+                    float: left
+                }
+                .REDES .float-right {
+                    float: left !important;
+                
+                }
+                .REDES .float-right a{
+                    color: #fff;
+                    
+                }
+                .float-right .fb {
+                    background: #4867AA;
+                }
+                .float-right .twitter {
+                    background: #1DA1F2;
+                }
+                .float-right .googleM {
+                    background: #DD4D42;
+                }
+                .float-right .whatsapp {
+                    background: #25d366;
+                }                 
+                .card .card-img-top{
+                    width: 100%
+                }
+                .demo-gallery h3{
+                    font-size: 20px;
+                    
+                }
+ }

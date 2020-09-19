@@ -1,0 +1,201 @@
+ /*header en entras de Noticias*/
+ #hero-area {
+    background: url(../acercaDe/portada.jpg) fixed no-repeat;
+    /* background: url(../noticias/imgNoticias/16-10-18/1.10noticia.jpg) fixed no-repeat; */
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;  
+    
+  }
+  .quienesSomos{
+      width: 100%;
+      min-height: 100px;
+    height: 300px; 
+  }
+  .degradadoColor{    
+     /* background: -webkit-linear-gradient(rgba(34, 36, 35, 0.548) 60%, rgba(57, 58, 58, 0.897) 100%);
+      background: -moz-linear-gradient(rgba(34, 36, 35, 0.548) 60%,   rgba(57, 58, 58, 0.897) 100%);
+      background: -o-linear-gradient(rgba(34, 36, 35, 0.548) 60%,   rgba(57, 58, 58, 0.897) 100%); */
+      background: -webkit-linear-gradient(  rgba(207, 211, 208, 0.678) 10%,  rgba(16, 92, 39, 0.555) 90%);
+      background: -moz-linear-gradient(   rgba(207, 211, 208, 0.678) 10%,  rgba(16, 92, 39, 0.555) 90%);
+      background: -o-linear-gradient(  rgba(207, 211, 208, 0.678) 10%,  rgba(16, 92, 39, 0.555) 90%);
+  }
+  .quienesSomos h2{
+      text-align: center;
+      font-size: 55px;
+      font-family: 'Fondamento', cursive;
+    
+      
+  }
+  .quienesSomos .container .main_title h2{
+    padding-top: 9%;
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Fondamento', cursive;
+  }
+  .quienesSomos p{
+      text-align: center;
+  }
+  .quienesSomos p a{
+      color: #fff;
+      font-size: 50px
+  }
+ 
+  .lista{
+    margin-left: 2em;
+    margin-top: 1.3em;
+    margin-right: 1.5em;
+    list-style-type: upper-roman;
+  }
+  .subtema-h3{
+      text-align: center;
+      color: white;
+      margin-top: 55%;
+     
+     
+  }
+  .subtema-h4{
+      color: white;
+     margin-top: 20%;
+  }
+
+  #vision{
+    background-color: rgb(6, 100, 6);
+    height: auto;
+    box-shadow: 0px 0px 10px;
+  }
+  #cont-vision{
+    box-shadow: 0px 0px 10px; 
+    height: 200px;
+  }
+#text-vision{
+    margin: 4%;
+    margin-top: 8%;
+}
+
+
+  #mision{
+    background-color: rgb(6, 100, 6);
+    height: auto;
+    box-shadow: 0px 0px 10px;
+    margin-top: 2%;
+  }
+  #cont-mision{
+    box-shadow: 0px 0px 10px; 
+    height: 200px;
+    margin-top: 2%;
+  }
+#text-mision{
+    margin: 4%;
+}
+
+  #interno{
+      background-color: rgb(6, 100, 6);
+      height: auto;
+      box-shadow: 0px 0px 10px;
+     
+
+  }
+
+  #div-cont-interno{
+    box-shadow: 0px 0px 10px;
+  }  
+
+
+  #externo{
+    background-color: rgb(6, 100, 6);
+    height: auto;
+    box-shadow: 0px 0px 10px;   
+
+}
+
+
+#div-cont-externo{
+    box-shadow: 0px 0px 10px;
+   
+  }
+
+
+#contenido-list{
+    margin: 4%;
+}
+
+
+
+#list{
+    margin: 4%;
+}
+
+  @media(max-width: 767px){
+
+    #interno{
+        background-color: rgb(6, 100, 6);
+        height: 80px;
+        box-shadow: 0px 0px 10px;  
+  
+    }
+    
+    
+
+    #externo{
+        background-color: rgb(6, 100, 6);
+        height: 80px;
+        box-shadow: 0px 0px 10px;
+       
+    }
+    .subtema-h3{
+        text-align: center;
+        color: white;
+        margin-top: 4%;
+      
+    }
+    .subtema-h4{
+        color: white;
+        margin-top: 2%;
+    }
+  
+    #vision{
+      background-color: rgb(6, 100, 6);
+      height: auto;
+      box-shadow: 0px 0px 10px;
+    }
+    #cont-vision{
+      box-shadow: 0px 0px 10px; 
+      height: auto;
+      width: 99.5%;
+    }
+  #text-vision{
+      margin: 4%;
+      margin-top: 8%;
+
+  }
+    #div-cont-interno{
+        box-shadow: 0px 0px 10px;
+        width: 99.5%;
+        
+      }
+      #div-cont-externo{
+        box-shadow: 0px 0px 10px;
+        width: 99.5%;       
+      }
+
+
+      #mision{
+        background-color: rgb(6, 100, 6);
+        height: auto;
+        box-shadow: 0px 0px 10px;
+        margin-top: 14%;
+      }
+      #cont-mision{
+        box-shadow: 0px 0px 10px; 
+        height: auto;
+        width: 99.5%;
+        margin-top: -0.1%;
+      }
+    #text-mision{
+        margin: 4%;
+    }
+    
+
+  }

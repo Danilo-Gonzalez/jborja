@@ -1,0 +1,22 @@
+/* 
+     Author : Azhar Hussain Masum
+     Email: azharhussain4647@gmail.com
+     Website: http://azharmasum.com/
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+
+.camera_caption h4{
+font-size: 20px;
+margin: 5px 0;
+text-align: left;
+}
+.slider-btn{
+    cursor: pointer;
+    background: transparent;
+    border-color: white;
+}
+@media(max-width:580px){
+    .camera_caption{
+        display: none!important;
+    }
+}

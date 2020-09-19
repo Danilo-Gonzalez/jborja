@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.btn').hide();
+    $(".qwerty").mousemove(function(event){
+        $('.btn').show();
+   
+    });
+    $(".qwerty").mouseleave(function(){
+        $('.btn').hide();
+    });
+ 
+});
+</script>
+<style>
+   .qwerty{
+    width:50%;
+    height: 80px;
+    margin: solid red 1px;
+    background: gray
+   }
+   /* .btn{
+       display: none !important
+   } */
+</style>
+</head>
+<body>
+<div class="qwerty">
+ <a href="" class="btn" >gvekjhgfkjherw</a>
+</div>
+<p>Mouse is at coordinates: <span></span>.</p>
+
+</body>
+</html>

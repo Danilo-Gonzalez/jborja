@@ -1,0 +1,173 @@
+/* only small desktops */
+/* tablets */
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #hero-area .contents h1 {
+    font-size: 28px;
+  }
+  .item-boxes h4 {
+    font-size: 18px;
+  }
+  #features .show-box img {
+    display: none;
+  }
+  .pricing-table .pricing-details ul li {
+    font-size: 12px;
+  }
+  .counters .facts-item .fact-count h4 {
+    font-size: 14px;
+  }
+  .single-team {
+    margin-bottom: 30px;
+  }
+  .meta-tags span {
+    margin-right: 3px;
+  }
+  .meta-tags span i {
+    margin-right: 0px;
+  }
+  #blog .blog-item-text h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #logo{
+    width: 200px;
+    margin-left: 30px;
+  }
+  .content-all{
+    margin-bottom: 10%;
+    width: 80px;
+    margin: auto;
+    perspective: 80px;
+}
+#slider-container{
+  margin-top: 9%;
+  margin-bottom: 3%;
+}
+
+.content-carrousel{
+    width: 100%;   
+}
+.content-carrousel:hover{
+    animation-play-state: paused;   
+}
+
+#texto{
+  width: 200px;
+}
+.section-title wow fadeIn{
+  font-size-adjust: 35px;
+}
+.logo-animate{
+  display: none !important;
+}
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .section-header .section-title {
+    font-size: 20px;
+  }
+  #hero-area .contents {
+    padding: 100px 0 80px;
+  }
+  #hero-area .contents h1 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #features .show-box img {
+    display: none;
+  }
+  #features .box-item .text h4 {
+    font-size: 14px;
+  }
+  .controls {
+    margin: 0px;
+  }
+  .controls .btn {
+    font-size: 13px;
+    padding: 7px 7px;
+  }
+  .video-promo .video-promo-content h2 {
+    font-size: 22px;
+  }
+  .pricing-table {
+    margin-bottom: 15px;
+  }
+  .counters .facts-item {
+    margin-bottom: 30px;
+  }
+  .single-team {
+    margin-bottom: 15px;
+  }
+  .contact-us {
+    margin-bottom: 30px;
+  }
+  .contact-us h3 {
+    font-size: 28px;
+  }
+  .footer-links li a {
+    margin-right: 10px;
+  }
+  .copyright {
+    float: left;
+  }
+  #logo{
+    width: 170px;
+    margin-left: 10px;   
+  }
+  .content-all{
+    margin-bottom: 10%;
+    width: 80px;
+    margin: auto;
+    perspective: 80px;
+}
+
+.content-carrousel{
+    width: 100%;   
+}
+.content-carrousel:hover{
+    animation-play-state: paused;   
+}
+
+#features .section-title{
+  text-align: center;
+  font-size: 12px;
+}
+.camera_wrap{
+  margin-top: 10%;
+}
+
+.logo-animate{
+  display: none !important;
+}
+/* #opacidad{
+  background: #fff;
+} */
+#slider-container{
+  display: initial;
+}
+#hero-area{
+  background: none;
+  opacity: none;
+}
+#hero-area .overlay{
+  opacity: none; 
+}
+#contact {
+  text-align: center;
+  background: #000000;   
+  color: #fff;
+  position: relative;
+  overflow: hidden; 
+}
+.mobile-menu{
+  background: #fff;
+}
+#hero-area .overlay{  
+  background: none;  
+}
+
+/*  */
+
+}
